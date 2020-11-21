@@ -1,0 +1,10 @@
+console.log(Validate.isNumber(5));
+console.log(Validate.isInt(5.21));
+console.log(Validate.isFloat(5.21));
+console.log(Validate.isChar('H'));
+console.log(Validate.isString('Hello'));
+console.log(Validate.isBoolean(false));
+console.log(Validate.isArray(['asdasd']));
+console.log(Validate.toMoney(1000));
+console.log(Validate.toMoney(200000));
+console.log(Validate.toMoney(150000000));
